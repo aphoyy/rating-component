@@ -1,0 +1,26 @@
+.thank-you {
+    text-align: center;
+}
+
+.thank-you-img {
+    margin: 17px 0 0 0;
+}
+
+.selection {
+    color: var(--orange);
+    background-color: var(--mediumgrey);
+    width: 200px;
+    margin: 25px auto;
+    border-radius: 40px;
+    padding: 4px;
+    font-size: 14px;
+}
+
+.thank-you .heading {
+    margin: 0;
+}
+
+.thank-you .text {
+    margin-top: 10px;
+    padding: 0 4px;
+}
