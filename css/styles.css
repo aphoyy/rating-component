@@ -102,10 +102,50 @@ form {
     height: 13%;
     border: 0;
     border-radius: 40px;
+    letter-spacing: 0.3rem;
 }
 
 .submit:hover {
     background-color: var(--white);
     color: var(--orange);
     cursor: pointer;
+}
+
+.credits {
+    color: var(--white);
+    position: absolute;
+    bottom: 10px;
+}
+
+.credits a {
+    color: var(--orange);
+}
+
+@media screen and (max-width: 420px) {
+    .box, .thank-you {
+        width: 350px;
+    }
+    .credits {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .box, .thank-you {
+        width: 320px;
+    }
+    .rating {
+        text-align: center;
+        line-height: 0;
+        padding-top: 20px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .box, .thank-you {
+        width: 280px;
+        padding: 20px;
+    }
 }

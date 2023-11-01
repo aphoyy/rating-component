@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet" />
-    <link rel="icon" type="image/x-icon" href="img/icon-star.svg" />
-    <title>Interactive rating component</title>
-    <script src="js/script.js"></script>
-  </head>
-  <body>
-    <main class="box">
-      <img src="img\icon-star.svg" id="star" class="star" alt="star" />
-      <h2 class="heading">How did we do?</h2>
-      <p class="text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-      <form action="thankyou.html" method="get">
-        <div class="button-div">
-          <label class="rating">1<input type="radio" class="button" name="rating" id="1" value="1" onclick="changeBackground(0)" required /></label>
-          <label class="rating">2<input type="radio" class="button" name="rating" id="2" value="2" onclick="changeBackground(1)" required /></label>
-          <label class="rating">3<input type="radio" class="button" name="rating" id="3" value="3" onclick="changeBackground(2)" required /></label>
-          <label class="rating">4<input type="radio" class="button" name="rating" id="4" value="4" onclick="changeBackground(3)" required /></label>
-          <label class="rating">5<input type="radio" class="button" name="rating" id="5" value="5" onclick="changeBackground(4)" required /></label>
-        </div>
-        <input type="submit" id="submit" class="submit" value="S U B M I T" />
-      </form>
-    </main>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet" />
+        <link rel="icon" type="image/x-icon" href="img/icon-star.svg" />
+        <title>Interactive rating component</title>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <main class="box">
+            <img src="img\icon-star.svg" id="star" class="star" alt="star" />
+            <h2 class="heading">How did we do?</h2>
+            <p class="text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            <form action="thankyou.html" method="get">
+                <div class="button-div">
+                    <label class="rating">1<input type="radio" class="button" name="rating" id="1" value="1" onclick="changeBackground(0)" required /></label>
+                    <label class="rating">2<input type="radio" class="button" name="rating" id="2" value="2" onclick="changeBackground(1)" required /></label>
+                    <label class="rating">3<input type="radio" class="button" name="rating" id="3" value="3" onclick="changeBackground(2)" required /></label>
+                    <label class="rating">4<input type="radio" class="button" name="rating" id="4" value="4" onclick="changeBackground(3)" required /></label>
+                    <label class="rating">5<input type="radio" class="button" name="rating" id="5" value="5" onclick="changeBackground(4)" required /></label>
+                </div>
+                <input type="submit" id="submit" class="submit" value="SUBMIT" />
+            </form>
+        </main>
+        <p class="credits">Challenge from <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">Frontend Mentor</a> done by <a href="https://github.com/aphoyy">S. Christophe</a></p>
+    </body>
 </html>
